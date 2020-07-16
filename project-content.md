@@ -3,8 +3,6 @@
 Content
 
 - Documentation
-  - Interface Design Specification
-  - Database Design Specification
   - Documentation Specification
 - Coding
   - Java Coding Specification
