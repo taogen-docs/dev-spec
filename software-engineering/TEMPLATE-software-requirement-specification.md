@@ -23,6 +23,8 @@
 
 ## 1. Introduction
 
+This section gives a scope description and overview of everything included in this SRS document. Also, the purpose for this document is described and a list of abbreviations and definitions is provided.
+
 ### 1.1 Purpose
 
 > The main purpose of this document is ...
@@ -39,46 +41,96 @@
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
-> xxx
+> Noun definitions
+
+| Term                | Definition  |
+| ------------------- | ----------- |
+| User                |             |
+| Admin/Administrator |             |
+| DESC                | Description |
+| RAT                 | Rational    |
+| DEP                 | Dependency  |
+
+
 
 ## 2. Overall Description 
 
+This section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality is available for each type. At last, the constraints and assumptions for the system will be presented.
+
 ### 2.1 Product Perspective
 
-> xxx
+> - To describe your project is what looks like. Its parts, its functionality and requirements.
+> - Business Process Diagrams
+> - Business Interactive Diagrams
 
 ### 2.2 Product Functions
 
-> xxx
+> - To describe product provides functionality.
+> - Functionality Mindmap.
+> - ER model Diagram.
 
 ### 2.3 User Characteristics
 
-> xxx
+> Types of users to interact with the system.
+>
+> For example: There are three types of users that interact with the system: ...
 
 ### 2.4 Constraints (or Limitations)
 
-> xxx
+> System constraints.
+>
+> For example: The mobile application is constrained by the system interface to the GPS navigation system within the mobile phone
 
 ### 2.5 Assumptions and Dependencies
 
-> xxx
+> For example: One assumption about the product is that it will always be used on mobile phones that have enough performance.
 
 ## 3\. Requirements
+
+This section contains all of the functional and quality requirements of the system. It gives a detailed description of the system and all its features.
 
 ### 3.1 External interfaces
 
 > - User
+>   - Different type users with different user interfaces. For example, login page, home page.
 > - Hardware
+>   - Specify the logical characteristics of each interface between the software product and the hardware elements of the system. 
 > - Software
+>   - Specify the use of other required software products (e.g., a data management system, an operating system, or a mathematical package), and interfaces with other application systems (e.g., the linkage between an accounts receivable system and a general ledger system).
 > - Communications
+>   - Specify the various interfaces to communications such as local network protocols.
 
 ### 3.2 Functional Requirements
 
-> - Functions Mindmap
-> - Business Process Diagrams
-> - Business Interactive Diagrams
+This section includes the requirements that specify all the fundamental actions of the software system.
+
+#### 3.2.1 User Class 1 - The User
+
+```
+ID: FR1
+TITLE: 
+DESC:
+RAT: (Rational, in order for )
+DEP: (dependent FR ID, or None) 
+```
+
+#### 3.2.2 User Class 2 - Administrator
+
+
 
 ### 3.3 Nonfunctional Requirements
+
+#### 3.3.1 Performance Requirements
+
+The requirements in this section provide a detailed specification of the user interaction with the software and measurements placed on the system performance.
+
+```
+ID: QR q
+TITLE: 
+DESC:
+RAT: (Rational, in order for )
+DEP: (dependent QR ID, or None)
+```
 
 > - Performance Requirements
 > - Safety Requirements
