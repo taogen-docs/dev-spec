@@ -26,13 +26,13 @@
   - Internal Communications Architecture
   - Security Architecture
   - Performance
-- 3\. System Design
+- 4\. System Design
   - System User Cases
   - System Modules
   - Database Design
   - System Interface Design
   - User Interface Design
-- 4\. Detailed Design
+- 5\. Detailed Design
   - xxx Module (or xxx Component)
 - Appendix I
 
@@ -46,7 +46,9 @@
 
 Please refer to Appendix A for a list of all acronyms and abbreviations.
 
-## 2. Architecture Design
+## 2. Design Considerations
+
+## 3. Architecture Design
 
 > - Modules Structure Diagrams or Mindmap
 > - Architecture Diagrams (for techniques and business)
@@ -65,13 +67,21 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 > System Components interaction.
 
-## 3. System Design
+## 4. System Design
 
 ### Database Design
 
+| Name | Type         | Length | NULL     | Default | Key  | Description |
+| ---- | ------------ | ------ | -------- | ------- | ---- | ----------- |
+| id   | INT UNSIGNED |        | not null |         | P    |             |
+| name | varchar      | 64     | not null |         |      |             |
+| ...  |              |        |          |         |      |             |
+
+
+
 ### System Interface Design 
 
-## 4. Detailed Design
+## 5. Detailed Design
 
 > - Project Creation Description (project files' structure)
 > - Modules' UML Class Diagrams (classes hierarchy and classes supported interfaces)
