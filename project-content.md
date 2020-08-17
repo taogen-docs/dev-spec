@@ -2,12 +2,17 @@
 
 Content
 
-- Documentation
-  - Documentation Specification
-- Coding
-  - Java Coding Specification
-- Engineering
+- Document Templates
+
+- Development Specifications
+
   - Git Commit Specification
+
+- Coding Specifications
+
+  - Java Coding Specification (Clean Code)
+
+  
 
 ## Documentation
 
