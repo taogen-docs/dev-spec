@@ -7,6 +7,7 @@ Content
 - Development Specifications
 
   - Git Commit Specification
+  - Development Process Specification
 
 - Coding Specifications
 
