@@ -68,6 +68,7 @@ This section will give an overview of the whole system. The system will be expla
 > - To describe product provides functionality.
 > - Functionality Mindmap.
 > - ER model Diagram.
+> - Flow Diagrams.
 
 ### 2.3 User Characteristics
 
