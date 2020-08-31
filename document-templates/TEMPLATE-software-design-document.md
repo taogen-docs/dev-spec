@@ -53,8 +53,6 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 > - Modules Structure Diagrams or Mindmap
 > - Architecture Diagrams (for techniques and business)
 
-
-
 ### System Architecture
 
 > System functionality and logic.
@@ -71,11 +69,13 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 ### Database Design
 
-| Name | Type         | Length | NULL     | Default | Key  | Description |
-| ---- | ------------ | ------ | -------- | ------- | ---- | ----------- |
-| id   | INT UNSIGNED |        | not null |         | P    |             |
-| name | varchar      | 64     | not null |         |      |             |
-| ...  |              |        |          |         |      |             |
+<table_name>
+
+| Name | Type         | Length | NULL     | Default | Key  | Comment |
+| ---- | ------------ | ------ | -------- | ------- | ---- | ------- |
+| id   | INT UNSIGNED |        | not null |         | P    |         |
+| name | varchar      | 64     | not null |         |      |         |
+| ...  |              |        |          |         |      |         |
 
 
 
@@ -84,6 +84,7 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 ## 5. Detailed Design
 
 > - Project Creation Description (project files' structure)
+> - Project Implementation Process Description
 > - Modules' UML Class Diagrams (classes hierarchy and classes supported interfaces)
 > - Modules' UML Sequence Diagram (classes' interfaces invoke sequence)
 > - Modules' Core Function Implementation Algorithm
