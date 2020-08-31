@@ -53,11 +53,13 @@
 
 ## Detailed Design
 
-> - Project Creation Description (project files' structure)
+> - Project Creation Description (project files' structure) -> software-project-building.md
 > - Project Implementation Process Description
 > - Modules' UML Class Diagrams (classes hierarchy and classes supported interfaces)
 > - Modules' UML Sequence Diagram (classes' interfaces invoke sequence)
+> - Modules' Function Flow Diagram
 > - Modules' Core Function Implementation Algorithm
+> - Modules' Requirements Implementations
 
 
 
