@@ -1,14 +1,14 @@
--------------------------
--- Database: <db_name>
--------------------------
+/***********************************
+Database: <db_name>
+************************************/
 
 CREATE DATABASE IF NOT EXISTS `<db_name>` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE `<db_name>`;
 
--------------------------
--- Table: <table_name>
--------------------------
+/***********************************
+Table: <table_name>
+************************************/
 
 DROP TABLE IF EXISTS `<table_name>`;
 
