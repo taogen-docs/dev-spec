@@ -69,7 +69,21 @@ Web
 ### Step1: Creating a Git repository
 
 - Git Repository initialization.
+
+  ```
+  git init
+  ```
+
 - Add .gitignore, .gitmessage, README
+
+- Create a repository on GitHub
+
+- Push new local repository to remote
+
+  ```
+  git remote add origin https://github.com/<username>/<repository_name>.git
+  git push -u origin master
+  ```
 
 ### Step2: Generating a Maven project
 

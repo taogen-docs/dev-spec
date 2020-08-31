@@ -83,11 +83,14 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 ## 5. Detailed Design
 
-> - Project Creation Description (project files' structure) -> software-project-building.md
+> - #Project
+> - Project Files Structure
 > - Project Implementation Process Description
-> - Modules' UML Class Diagrams (classes hierarchy and classes supported interfaces)
-> - Modules' UML Sequence Diagram (classes' interfaces invoke sequence)
-> - Modules' Function Flow Diagram
+> - #Design
+> - Modules' UML Class Diagrams (how to implement all requirements in object-oriented)
+> - Modules' UML Activity Diagram (Implement details)
+> - Modules' UML Sequence Diagram (Implement details)
+> - #Implementations
 > - Modules' Core Function Implementation Algorithm
 > - Modules' Requirements Implementations
 
