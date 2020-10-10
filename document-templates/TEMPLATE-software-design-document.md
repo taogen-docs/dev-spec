@@ -53,17 +53,27 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 > - Modules Structure Diagrams or Mindmap
 > - Architecture Diagrams (for techniques and business)
 
-### System Architecture
+### Business Architecture
 
-> System functionality and logic.
+> Business Process
+>
+> Business Functions Structure
 
-### Hardware Architecture
+### Application(System) Architecture
 
-> System and other servers interaction.
+> Type: Monolithic, Distributed, SOA
+>
+> Division
+>
+> - Horizontal division: frontend, middle server, backend server.
+>
+> - Vertical division: subsystems.
 
-### Software Architecture
+### Technical  Architecture
 
-> System Components interaction.
+> Techniques of every layers. 
+>
+> Layers: Persistence layer, data layer, logic layer, application layer, view layer.
 
 ## 4. System Design
 
