@@ -89,7 +89,42 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 
 
-### System Interface Design 
+### System Interface Design
+
+<Interface Name 1>
+
+- Description:
+
+- URL: 
+
+- Request Content-Type: JSON
+
+- Request Http Method: POST
+
+- Precondition: require login
+
+- Request Parameter list:
+
+  | Parameter Name | Required | Data Type | Comment |
+  | -------------- | -------- | --------- | ------- |
+  |                |          |           |         |
+
+- Response Content-Type:
+
+- Response Example:
+
+  - Normal Result
+
+    ```
+    {
+      "code":"0",
+      "msg":"ok"
+    }
+    ```
+
+  - Error Result
+
+
 
 ## 5. Detailed Design
 
