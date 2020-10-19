@@ -97,13 +97,13 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 - URL: 
 
-- Request Content-Type: JSON
-
 - Request Http Method: POST
+
+- Request Content-Type: JSON
 
 - Precondition: require login
 
-- Request Parameter list:
+- Request Body (Parameters):
 
   | Parameter Name | Required | Data Type | Comment |
   | -------------- | -------- | --------- | ------- |
@@ -111,9 +111,9 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 - Response Content-Type:
 
-- Response Example:
+- Response Body:
 
-  - Normal Result
+  - Success Return
 
     ```
     {
@@ -122,7 +122,7 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
     }
     ```
 
-  - Error Result
+  - Error Return
 
 
 
