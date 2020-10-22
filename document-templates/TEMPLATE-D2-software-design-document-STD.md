@@ -19,13 +19,15 @@
     - 2.2.3 Portability
     - 2.2.4 Extensibility
 - 3\. Architecture Design
-  - System Architecture
-  - Hardware Architecture
-  - Software Architecture
-  - Information Architecture
-  - Internal Communications Architecture
-  - Security Architecture
-  - Performance
+  - Business Architecture
+  - System/Application Architecture
+  - Technical Architecture
+  - (Hardware Architecture)
+  - (Software Architecture)
+  - (Information Architecture)
+  - (Internal Communications Architecture)
+  - (Security Architecture)
+  - (Performance)
 - 4\. System Design
   - System User Cases
   - System Modules
@@ -55,9 +57,8 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 ### Business Architecture
 
-> Business Process
->
-> Business Functions Structure
+> - Business Process
+>- Business Functions Structure
 
 ### Application(System) Architecture
 

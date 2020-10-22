@@ -3,13 +3,15 @@
 **Content**
 
 - Architecture Design
-  - System Architecture
-  - Hardware Architecture
-  - Software Architecture
-  - Information Architecture
-  - Internal Communications Architecture
-  - Security Architecture
-  - Performance
+  - Business Architecture
+  - System/Application Architecture
+  - Technical Architecture
+  - (Hardware Architecture)
+  - (Software Architecture)
+  - (Information Architecture)
+  - (Internal Communications Architecture)
+  - (Security Architecture)
+  - (Performance)
 - System Design
   - System User Cases
   - System Modules
@@ -25,21 +27,32 @@
 > - Modules Structure Diagrams or Mindmap
 > - Architecture Diagrams (for techniques and business)
 
-### System Architecture
+### Business Architecture
 
-> System functionality and logic.
+> - Business Process
+> - Business Functions Structure
 
-### Hardware Architecture
+### System/Application Architecture
 
-> System and other servers interaction.
+> Type: Monolithic, Distributed, SOA
+>
+> Division
+>
+> - Horizontal division: frontend, middle server, backend server.
+>
+> - Vertical division: subsystems.
 
-### Software Architecture
+### Technical Architecture
 
-> System Components interaction.
+> Techniques of every layers. 
+>
+> Layers: Persistence layer, data layer, logic layer, application layer, view layer.
 
 ## System Design
 
 ### Database Design
+
+<table_name>
 
 | Name | Type         | Length | NULL     | Default | Key  | Comment |
 | ---- | ------------ | ------ | -------- | ------- | ---- | ------- |
@@ -50,6 +63,39 @@
 
 
 ### System Interface Design 
+
+<Interface Name 1>
+
+- Description:
+
+- URL: 
+
+- Request Http Method: POST
+
+- Request Content-Type: JSON
+
+- Precondition: require login
+
+- Request Body (Parameters):
+
+  | Parameter Name | Required | Data Type | Comment |
+  | -------------- | -------- | --------- | ------- |
+  |                |          |           |         |
+
+- Response Content-Type:
+
+- Response Body:
+
+  - Success Return
+
+    ```
+    {
+      "code":"0",
+      "msg":"ok"
+    }
+    ```
+
+  - Error Return
 
 ## Detailed Design
 
