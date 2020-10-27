@@ -49,6 +49,10 @@ TODO
 
 ### Code Specifications
 
+#### Project file structure
+
+#### Project file naming
+
 #### Common Business Methods Naming specification 
 
 #### Write Code process
