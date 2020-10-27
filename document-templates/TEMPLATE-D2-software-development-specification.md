@@ -7,6 +7,8 @@
   - Scope
 - Development Specification
   - Development Description
+  - Database Design Specifications
+  - Interface Design Specifications
   - Code Specifications
   - Code Commit Specifications
 
@@ -26,13 +28,30 @@ This document is applicable to
 
 ### Development Description
 
-**Development Process**
+#### Development Process
 
 code -> code review -> code commit -> test -> merge
 
+
+
+### Database Design Specifications
+
+- Every table's common columns.
+- Table name and columns name specification.
+
+
+
+### Interface Design Specifications
+
+TODO
+
+
+
 ### Code Specifications
 
-**Write Code process**
+#### Common Business Methods Naming specification 
+
+#### Write Code process
 
 Define interface methods --> Write unit tests --> implement interface methods
 
@@ -44,9 +63,9 @@ interfaces are represented as:
 
 ### Code Commit Specifications
 
-**Code Commit Description**
+#### Code Commit Process
 
-**Code Commit Message Specification**
+#### Code Commit Message Specification
 
 ```
 [tag] subject
