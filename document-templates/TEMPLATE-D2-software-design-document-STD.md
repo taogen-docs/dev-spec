@@ -29,7 +29,7 @@
   - (Security Architecture)
   - (Performance)
 - 4\. System Design
-  - System User Cases
+  - System Use Cases
   - System Modules
   - Database Design
   - System Interface Design
