@@ -54,11 +54,16 @@
 
 <table_name>
 
-| Name | Type         | Length | NULL     | Default | Key  | Comment |
-| ---- | ------------ | ------ | -------- | ------- | ---- | ------- |
-| id   | INT UNSIGNED |        | not null |         | P    |         |
-| name | varchar      | 64     | not null |         |      |         |
-| ...  |              |        |          |         |      |         |
+| Name        | Type         | Length | NULL     | Default | Key  | Comment |
+| ----------- | ------------ | ------ | -------- | ------- | ---- | ------- |
+| id          | INT UNSIGNED |        | not null |         | P    |         |
+| name        | VARCHAR      | 64     | not null |         |      |         |
+| ...         |              |        |          |         |      |         |
+| create_by   | INT          |        | not null |         |      |         |
+| create_time | TIMESTAMP    |        | not null | NOW()   |      |         |
+| modify_by   | INT          |        | null     |         |      |         |
+| modify_time | TIMESTAMP    |        | null     |         |      |         |
+| delete_flag | BOOL         |        | not null |         |      |         |
 
 
 
