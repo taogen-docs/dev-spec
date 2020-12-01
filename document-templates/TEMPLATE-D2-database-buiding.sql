@@ -13,9 +13,9 @@ Table: <table_name>
 DROP TABLE IF EXISTS `<table_name>`;
 
 CREATE TABLE `<table_name>` (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'department ID',
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'department ID',
     name VARCHAR(64) NOT NULL COMMENT 'department name',
-    delete_flag BOOL NOT NULL DEFAULT 0 comment 'delete flag',
+    delete_flag BOOL NOT NULL DEFAULT FALSE comment 'delete flag',
     create_time TIMESTAMP NOT NULL DEFAULT NOW(),
     modify_time TIMESTAMP NULL)
 ENGINE='InnoDB'
