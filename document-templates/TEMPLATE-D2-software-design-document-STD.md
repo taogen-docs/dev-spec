@@ -82,16 +82,16 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 <table_name>
 
-| Name        | Type         | Length | NULL     | Default | Automatic       | Key  | Comment |
-| ----------- | ------------ | ------ | -------- | ------- | --------------- | ---- | ------- |
-| id          | INT UNSIGNED |        | NOT NULL |         | AUTO_INCREMENT  | P    |         |
-| name        | VARCHAR      | 64     | NOT NULL |         |                 |      |         |
-| ...         |              |        |          |         |                 |      |         |
-| delete_flag | BOOL         |        | NOT NULL | FALSE   |                 |      |         |
-| create_by   | INT          |        | NOT NULL |         |                 |      |         |
-| create_time | TIMESTAMP    |        | NOT NULL | NOW()   |                 |      |         |
-| modify_by   | INT          |        | NULL     |         |                 |      |         |
-| modify_time | TIMESTAMP    |        | NULL     |         | ON UPDATE NOW() |      |         |
+| Name        | Type      | Length | NULL     | Default | Automatic       | Key  | Comment |
+| ----------- | --------- | ------ | -------- | ------- | --------------- | ---- | ------- |
+| id          | INT       |        | NOT NULL |         | AUTO_INCREMENT  | P    |         |
+| name        | VARCHAR   | 64     | NOT NULL |         |                 |      |         |
+| ...         |           |        |          |         |                 |      |         |
+| delete_flag | BOOL      |        | NOT NULL | FALSE   |                 |      |         |
+| create_by   | INT       |        | NOT NULL |         |                 |      |         |
+| create_time | TIMESTAMP |        | NOT NULL | NOW()   |                 |      |         |
+| modify_by   | INT       |        | NULL     |         |                 |      |         |
+| modify_time | TIMESTAMP |        | NULL     |         | ON UPDATE NOW() |      |         |
 
 
 
