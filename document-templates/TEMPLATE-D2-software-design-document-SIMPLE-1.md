@@ -54,16 +54,16 @@
 
 <table_name>
 
-| Name        | Type         | Length | NULL     | Default | Key  | Comment |
-| ----------- | ------------ | ------ | -------- | ------- | ---- | ------- |
-| id          | INT UNSIGNED |        | not null |         | P    |         |
-| name        | VARCHAR      | 64     | not null |         |      |         |
-| ...         |              |        |          |         |      |         |
-| create_by   | INT          |        | not null |         |      |         |
-| create_time | TIMESTAMP    |        | not null | NOW()   |      |         |
-| modify_by   | INT          |        | null     |         |      |         |
-| modify_time | TIMESTAMP    |        | null     |         |      |         |
-| delete_flag | BOOL         |        | not null |         |      |         |
+| Name        | Type         | Length | NULL     | Default | Automatic       | Key  | Comment |
+| ----------- | ------------ | ------ | -------- | ------- | --------------- | ---- | ------- |
+| id          | INT UNSIGNED |        | NOT NULL |         | AUTO_INCREMENT  | P    |         |
+| name        | VARCHAR      | 64     | NOT NULL |         |                 |      |         |
+| ...         |              |        |          |         |                 |      |         |
+| delete_flag | BOOL         |        | NOT NULL | FALSE   |                 |      |         |
+| create_by   | INT          |        | NOT NULL |         |                 |      |         |
+| create_time | TIMESTAMP    |        | NOT NULL | NOW()   |                 |      |         |
+| modify_by   | INT          |        | NULL     |         |                 |      |         |
+| modify_time | TIMESTAMP    |        | NULL     |         | ON UPDATE NOW() |      |         |
 
 
 
