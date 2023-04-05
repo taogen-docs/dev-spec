@@ -136,16 +136,18 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 ## 5. Detailed Design
 
-> - #Project Detailed Design
-> - Project Files Structure
-> - Project Implementation Process Description
-> - #Module Detailed Design
-> - Modules' UML Class Diagrams (how to implement all requirements in object-oriented)
-> - Modules' UML Activity Diagram (Implement details)
-> - Modules' UML Sequence Diagram (Implement details)
-> - #Implementations
-> - Modules' Core Function Implementation Algorithm
-> - Modules' Requirements Implementations
+> - Project Detailed Design
+>   - Project Files Structure
+>   - Project Implementation Process Description (every individual step (or task) to finish this project)
+> - Module Detailed Design
+>   - Diagrams
+>     - Business logic flow chart
+>     - Modules' UML Class Diagrams (how to implement all requirements in object-oriented)
+>     - Modules' UML Activity Diagram (Implement details)
+>     - Modules' UML Sequence Diagram (Implement details)
+>   - Implementations
+>     - Modules' Core Function Implementation Algorithm
+>     - Modules' Requirements Implementations
 
 ## References(update_me)
 
