@@ -53,7 +53,9 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 ## 3. Architecture Design
 
 > - Modules Structure Diagrams or Mindmap
-> - Architecture Diagrams (for techniques and business)
+> - Architecture Diagrams (for techniques and business) Client, Web Server, Web Application, Subsystems, Database
+
+> Software architecture is, simply, the organization of a system. This organization includes all components, how they interact with each other, the environment in which they operate, and the principles used to design the software.
 
 ### Business Architecture
 
@@ -134,10 +136,10 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 ## 5. Detailed Design
 
-> - #Project
+> - #Project Detailed Design
 > - Project Files Structure
 > - Project Implementation Process Description
-> - #Design
+> - #Module Detailed Design
 > - Modules' UML Class Diagrams (how to implement all requirements in object-oriented)
 > - Modules' UML Activity Diagram (Implement details)
 > - Modules' UML Sequence Diagram (Implement details)
