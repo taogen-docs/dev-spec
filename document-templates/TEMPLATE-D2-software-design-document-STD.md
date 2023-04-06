@@ -138,7 +138,8 @@ Please refer to Appendix A for a list of all acronyms and abbreviations.
 
 > - Project Detailed Design
 >   - Project Files Structure
->   - Project Implementation Process Description (every individual step (or task) to finish this project)
+>   - Description of Project Implementation Process (every individual step (or task) to finish this project)
+>   - Implementation of Project Framework Building (how to create project, integrating dependencies and configurations, Dockerfile and auto-deployment)
 > - Module Detailed Design
 >   - Diagrams
 >     - Business logic flow chart
